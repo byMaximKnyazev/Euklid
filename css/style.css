@@ -14,6 +14,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1;
+	color: #333;
 }
 
 h1,
@@ -27,7 +28,7 @@ h6 {
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 }
 
 .wrapper {
@@ -39,6 +40,19 @@ img {
 	margin: 0 auto;
 	padding: 0 15px;
 	max-width: 1800px;
+}
+
+.flex {
+	display: flex;
+}
+
+/* Reset */
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* Fonts */
@@ -101,10 +115,60 @@ img {
 	font-style: normal;
 	font-display: swap;
 }
+
 /* Переменные */
 :root {
 	/* --gap: 30px; */
 }
-/* Общие стили */
 
+/* Стили для секции Header */
+.header {
+	padding: 14px 0;
+	box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.header__container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__list {
+	align-items: center;
+}
+
+.nav__item:not(:last-child) {
+	margin-right: 85px;
+}
+
+.nav__link {
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+.nav__link:focus {
+	outline-offset: 5px;
+	outline: 2px solid #F90;
+}
+
+.nav__link:hover {
+	border-bottom: 2px solid #F90;
+}
+
+.nav__link:active {
+	outline: none;
+	border-bottom: 2px solid #F90;
+	color: #E1670E;
+}
+
+.nav__link-icon {
+	stroke: #333;
+	transition: stroke 0.3s ease-in-out;
+}
+
+.nav__link-icon:active {
+	outline: none;
+	stroke: #E1670E;
+}
 
