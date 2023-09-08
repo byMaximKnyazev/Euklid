@@ -300,7 +300,7 @@ h6 {
 
 .about-us__item {
 	justify-content: space-between;
-	padding: 60px 60px;
+	padding: 60px 120px 60px 60px;
 	border: 1px solid #cacaca;
 }
 
@@ -316,4 +316,102 @@ h6 {
 
 .about-us__item-descr {
 	line-height: 2;
+}
+
+/* Стили для секции How we work */
+.how-we-work__title {
+	margin-bottom: 50px;
+}
+
+.how-we-work__tabs {
+	margin-bottom: 45px;
+	max-width: 460px;
+}
+
+.how-we-work__tabs-list {
+	justify-content: space-between;
+}
+
+.how-we-work__tabs-btn {
+	border: none;
+	font-size: 18px;
+	background-color: transparent;
+	cursor: pointer;
+	transition: color 0.3s ease-in-out;
+}
+
+.how-we-work__tabs-btn:focus {
+	outline-offset: 5px;
+	outline: 2px solid #F90;
+}
+
+.how-we-work__tabs-btn:hover {
+	color: #F90;
+}
+
+.how-we-work__tabs-btn:active {
+	outline: none;
+	color: #E1670E;
+}
+
+.how-we-work__inner {
+	justify-content: space-between;
+}
+
+.how-we-work__left {
+	width: 49%;
+}
+
+.how-we-work__left-title {
+	margin-bottom: 8px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 133.333%;
+}
+
+.how-we-work__left-descr {
+	margin-bottom: 50px;
+	max-width: 758px;
+	line-height: 200%;
+}
+
+.how-we-work__left-btns {
+	align-items: center;
+}
+
+.how-we-work__left-btn {
+	display: inline-block;
+	margin-right: 32px;
+	font-size: 16px;
+}
+
+.how-we-work__left-btn-o {
+	display: inline-block;
+	padding: 18px 37px;
+	border: 1px solid #333;
+	color: #333;
+	font-size: 16px;
+	transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.how-we-work__left-btn-o:focus {
+	color: #FFF;
+	background-color: #666;
+	border-color: #666;
+}
+
+.how-we-work__left-btn-o:hover {
+	color: #FFF;
+	background-color: #666;
+	border-color: #666;
+}
+
+.how-we-work__left-btn-o:active {
+	background-color: #000;
+}
+
+.how-we-work__right {
+	width: 49%;
+	height: 464px;
+	background: url('../img/how-we-work/how-we-work-bg.jpg') center center / cover no-repeat;
 }
