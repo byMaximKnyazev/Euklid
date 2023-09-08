@@ -478,3 +478,132 @@ h6 {
 .questions__item-link:hover .questions__item-icon ellipse {
 	fill: #FF9900;
 }
+
+/* Стили для секции Footer */
+.footer {
+	padding: 50px 0;
+	background-color: #222222;
+}
+
+.footer__inner {
+	justify-content: space-between;
+}
+
+.footer__item {
+	width: 33%;
+}
+
+.footer__logo {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.footer__nav {
+	margin-bottom: 90px;
+}
+
+.footer__nav-list {
+	flex-direction: column;
+}
+
+.footer__nav-link {
+	color: #CACACA;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 200%;
+	transition: color 0.3s ease-in-out;
+}
+
+.footer__nav-link:focus {
+	outline-offset: 5px;
+	outline: 2px solid #F90;
+}
+
+.footer__nav-link:hover {
+	color: #FF9900;
+}
+
+.footer__nav-link:active {
+	outline: none;
+	color: #E1670E;
+}
+
+.footer__social-item:not(:last-child) {
+	margin-right: 25px;
+}
+
+.footer__social-icon {
+	fill: #7C7C7C;
+	transition: fill 0.3s ease-in-out;
+}
+
+.footer__social-link:focus .footer__social-icon {
+	outline-offset: 5px;
+	outline: 2px solid #F90;
+}
+
+.footer__social-link:hover .footer__social-icon {
+	fill: #F90;
+}
+
+.footer__social-link:active .footer__social-icon {
+	outline: none;
+	fill: #E1670E;
+}
+
+.footer__title {
+	margin-bottom: 25px;
+	color: #CACACA;
+	font-size: 48px;
+}
+
+.footer__form {
+	flex-direction: column;
+}
+
+.footer__form-input {
+	margin-bottom: 25px;
+	padding: 14px 14px 14px 24px;
+	height: 60px;
+	background-color: #414141;
+}
+
+.footer__form-input::placeholder,
+.footer__form-textarea::placeholder {
+	color: #CACACA;
+	font-weight: 400;
+	line-height: 200%;
+}
+
+.footer__form-textarea {
+	margin-bottom: 32px;
+	padding: 14px 14px 14px 24px;
+	height: 150px;
+	background-color: #414141;
+	resize: none;
+}
+
+.footer__form-bottom {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__form-btn {
+	font-size: 16px;
+}
+
+.footer__form-label {
+	color: #CACACA;
+	line-height: 200%;
+}
+
+.footer__item:last-child {
+	justify-content: end;
+	align-items: center;
+}
+
+.footer__descr {
+	max-width: 363px;
+	color: #CACACA;
+	line-height: 200%;
+}
