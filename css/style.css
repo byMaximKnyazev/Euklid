@@ -415,3 +415,66 @@ h6 {
 	height: 464px;
 	background: url('../img/how-we-work/how-we-work-bg.jpg') center center / cover no-repeat;
 }
+
+/* Стили для секции Questions */
+.questions {
+	padding-bottom: 100px;
+}
+
+.questions__title {
+	margin-bottom: 32px;
+}
+
+.questions__list {
+	flex-direction: column;
+}
+
+.questions__item {
+	display: block;
+}
+
+.questions__item-link {
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -1px;
+	padding: 31px 0;
+	border-top: 1px solid #CACACA;
+	border-bottom: 1px solid #CACACA;
+	font-size: 24px;
+	font-weight: 700;
+	color: #333;
+	transition: color 0.3s ease-in-out;
+}
+
+.questions__item-link:focus {
+	color: #FF9900;
+}
+
+.questions__item-icon {
+	fill: #666666;
+	transition: stroke 0.3s ease-in-out, fill 0.3s ease-in-out;
+}
+
+.questions__item-icon ellipse {
+	transition: stroke 0.3s ease-in-out, fill 0.3s ease-in-out
+}
+
+.questions__item-link:focus .questions__item-icon {
+	stroke: #FFF;
+}
+
+.questions__item-link:focus .questions__item-icon ellipse {
+	fill: #FF9900;
+}
+
+.questions__item-link:hover {
+	color: #FF9900;
+}
+
+.questions__item-link:hover .questions__item-icon {
+	stroke: #FFF;
+}
+
+.questions__item-link:hover .questions__item-icon ellipse {
+	fill: #FF9900;
+}
