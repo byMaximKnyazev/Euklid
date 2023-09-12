@@ -174,4 +174,211 @@
     margin-bottom: 69px;
     width: 70%;
   }
+
+  .footer__nav {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__logo-img {
+    width: 110px;
+  }
+
+  .hero__container {
+    padding: 60px 20px;
+  }
+
+  .hero__title {
+    margin-bottom: 6px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    margin-bottom: 32px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .hero__btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .about-us__descr {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .about-us__left {
+    position: relative;
+    margin-bottom: 210px;
+    height: 200px;
+  }
+
+  .about-us__left-content {
+    position: absolute;
+    left: 0;
+    bottom: -190px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .about-us__left-descr {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .about-us__left-btn {
+    margin-bottom: 32px;
+    text-align: left;
+    padding: 11px 38px;
+    color: #F90;
+    font-size: 12px;
+  }
+
+  .about-us__item {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 32px;
+    border: none;
+  }
+
+  .about-us__item-img {
+    margin-right: 0;
+    margin-bottom: 13px;
+  }
+
+  .about-us__item-img svg {
+    width: 86px;
+    height: 49px;
+  }
+
+  .about-us__item-title {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .about-us__item-descr {
+    font-size: 14px;
+  }
+
+  .how-we-work__title {
+    margin-bottom: 16px;
+  }
+
+  .how-we-work__tabs {
+    margin-bottom: 16px;
+  }
+
+  .how-we-work__right {
+    margin-bottom: 16px;
+    height: 160px;
+  }
+
+  .how-we-work__left-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .how-we-work__left-descr {
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+
+  .how-we-work__left-btn {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  .how-we-work__left-btn-o {
+    font-size: 12px;
+  }
+
+  .section__offset {
+    padding-top: 60px;
+  }
+
+  .questions {
+    padding-bottom: 60px;
+  }
+
+  .questions__title {
+    margin-bottom: 16px;
+  }
+
+  .questions__item-link {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .questions__item-icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer__item:nth-child(2) {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  .footer__form-textarea {
+    margin-bottom: 25px;
+  }
+
+  .footer__form-bottom {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer__form-btn {
+    margin-bottom: 11px;
+    margin-right: 0;
+    padding: 12px 23px;
+    font-size: 12px;
+  }
+
+  .footer__item:nth-child(1) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    width: 100%;
+  }
+
+  .footer__logo {
+    margin-bottom: 16px;
+  }
+
+  .footer__logo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #595959;
+  }
+
+  .footer__logo-img {
+    width: 131px;
+  }
 }
