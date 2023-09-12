@@ -89,14 +89,89 @@
   }
 
   .footer__item:nth-child(1) {
-    width: 45%;
+    width: 44%;
   }
 
   .footer__item:nth-child(2) {
-    width: 55%;
+    width: 56%;
   }
 
   .footer__item:nth-child(3) {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo-img {
+    width: 150px;
+  }
+
+  .hero__container {
+    padding: 160px 40px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__descr {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .section__offset {
+    padding-top: 80px;
+  }
+
+  .about-us__left-descr {
+    max-width: 366px;
+  }
+
+  .about-us__item {
+    padding: 35px 48px 35px 40px;
+  }
+
+  .how-we-work__tabs {
+    max-width: 100%;
+  }
+
+  .how-we-work__inner {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .how-we-work__left {
+    width: 100%;
+  }
+
+  .how-we-work__right {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 284px;
+  }
+
+  .how-we-work__left-descr {
+    margin-bottom: 25px;
+  }
+
+  .questions__title {
+    max-width: 668px;
+  }
+
+  .questions__item-link {
+    font-size: 20px;
+  }
+
+  .footer__inner {
+    flex-direction: column-reverse;
+  }
+
+  .footer__title {
+    width: 100%;
+  }
+
+  .footer__item:nth-child(2) {
+    margin-bottom: 69px;
+    width: 70%;
   }
 }
