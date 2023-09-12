@@ -173,6 +173,10 @@ h6 {
 	align-items: center;
 }
 
+.burger {
+	display: none;
+}
+
 .nav__list {
 	align-items: center;
 }
@@ -235,6 +239,10 @@ h6 {
 	font-weight: 700;
 }
 
+.nav__link-display {
+	display: none;
+}
+
 /* Стили для секции About Us */
 .about-us__descr {
 	margin-bottom: 50px;
@@ -247,7 +255,8 @@ h6 {
 }
 
 .about-us__left {
-	padding-top: 426px;
+	display: flex;
+	align-items: end;
 	width: 49%;
 	background: url('../img/about-us/about-us-img.jpg') center center / cover no-repeat;
 }
@@ -256,6 +265,7 @@ h6 {
 	justify-content: space-between;
 	align-items: center;
 	padding: 50px;
+	width: 100%;
 	background-color: rgba(0, 0, 0, 0.50);
 }
 
@@ -299,9 +309,17 @@ h6 {
 }
 
 .about-us__item {
-	justify-content: space-between;
+	margin-bottom: 32px;
 	padding: 60px 120px 60px 60px;
 	border: 1px solid #cacaca;
+}
+
+.about-us__item:last-child {
+	margin-bottom: 0;
+}
+
+.about-us__item-img {
+	margin-right: 50px;
 }
 
 .about-us__item-content {
@@ -412,7 +430,7 @@ h6 {
 
 .how-we-work__right {
 	width: 49%;
-	height: 464px;
+	/* height: 464px; */
 	background: url('../img/how-we-work/how-we-work-bg.jpg') center center / cover no-repeat;
 }
 
